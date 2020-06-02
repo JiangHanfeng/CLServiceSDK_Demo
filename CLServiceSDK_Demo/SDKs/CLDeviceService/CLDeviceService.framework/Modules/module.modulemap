@@ -1,0 +1,6 @@
+framework module CLDeviceService {
+  umbrella header "CLDeviceService-umbrella.h"
+
+  export *
+  module * { export * }
+}

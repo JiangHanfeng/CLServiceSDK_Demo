@@ -1,0 +1,6 @@
+framework module CLSdk {
+  umbrella header "CLSdk-umbrella.h"
+
+  export *
+  module * { export * }
+}

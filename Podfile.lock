@@ -1,0 +1,16 @@
+PODS:
+  - AlipaySDK-iOS (15.7.4)
+
+DEPENDENCIES:
+  - AlipaySDK-iOS
+
+SPEC REPOS:
+  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
+    - AlipaySDK-iOS
+
+SPEC CHECKSUMS:
+  AlipaySDK-iOS: 8659cdb4403de7e5f26ad8b699864a9cbe53384c
+
+PODFILE CHECKSUM: 6b38c9bd2db7e7437b88a061e373cbb93fedacaa
+
+COCOAPODS: 1.9.1
