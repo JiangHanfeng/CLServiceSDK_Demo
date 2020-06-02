@@ -67,7 +67,7 @@ Info.plist中添加
 App Transport Security Settings
 ```
 
-并设置App Transport Security Settings的值为YES
+并设置Allow Arbitrary Loads的值为YES
 
 ***
 
@@ -176,7 +176,7 @@ Acts as a Bluetooth LE accessory
         // 支付跳转支付宝钱包进行支付，处理支付结果
         [[AlipaySDK defaultService] processOrderWithPaymentResult:url standbyCallback:^(NSDictionary *resultDic) {
 						/*
-             * 接入方自己的处理
+             * 接入方自己可能会有的代码处理
              */
             
           	// 将resultDic透传给卡盟SDK
