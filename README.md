@@ -1,14 +1,43 @@
 ## 导入相关文件
 
-+ 卡盟相关：CLSdk.framework、CLSdk.bundle
+#### 卡盟相关
 
-+ 设备相关：CLDeviceService.framework、CLDeviceService.bundle、libHTCardReader.a、SRIDCardReader.framework、libReliableBurstData_arm64.a、KaerIDCardItem.framework
+	* CLSdk.framework
+	* CLSdk.bundle
+	* CLDeviceService.framework
+	* CLDeviceService.bundle
 
-+ 腾讯活体识别相关：faceLiveReflect.framework、NextCV.framework、rapidnet_ios.framework、WBCloudReflectionFaceVerify.framework、YTCommon.framework、YTIllumination.framework、YTPoseDetector.framework、YTTrackProWB.framework、detector_wb.bundle、PEDat_wb.bundle、ufa_wb.bundle、WBCloudReflectionFaceVerify.bundle
+#### 森瑞设备SDK
 
-+ 支付宝SDK（接入方自行接入）
+* SRIDCardReader.framework
+* libReliableBurstData_arm64.a
 
-  ***
+#### 卡尔设备SDK
+
+* KaerIDCardItem.framework
+
+#### HT设备SDK
+
+* libHTCardReader.a
+
+#### 腾讯人脸识别
+
+* faceLiveReflect.framework
+* NextCV.framework
+* rapidnet_ios.framework
+* WBCloudReflectionFaceVerify.framework
+* YTCommon.framework
+* YTIllumination.framework
+* YTPoseDetector.framework
+* YTTrackProWB.framework
+* detector_wb.bundle
+* PEDat_wb.bundle
+* ufa_wb.bundle
+* WBCloudReflectionFaceVerify.bundle
+
+#### 支付宝SDK（接入方自行导入）
+
+***
 
 
 
