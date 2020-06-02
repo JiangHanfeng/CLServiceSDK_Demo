@@ -2,10 +2,13 @@
 
 #### 卡盟相关
 
-	* CLSdk.framework
-	* CLSdk.bundle
-	* CLDeviceService.framework
-	* CLDeviceService.bundle
+* CLSdk.framework
+
+* CLSdk.bundle
+
+* CLDeviceService.framework
+
+* CLDeviceService.bundle
 
 #### 森瑞设备SDK
 
