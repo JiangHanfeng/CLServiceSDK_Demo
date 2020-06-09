@@ -1,0 +1,6 @@
+framework module YTCrypt {
+  umbrella header "YTCrypt-umbrella.h"
+
+  export *
+  module * { export * }
+}

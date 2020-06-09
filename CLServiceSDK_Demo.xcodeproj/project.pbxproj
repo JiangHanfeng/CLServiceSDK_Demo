@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		524ABE36248F2C9800ED4963 /* YTCrypt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 524ABE34248F2BD100ED4963 /* YTCrypt.framework */; };
+		524ABE37248F2C9800ED4963 /* YTCrypt.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 524ABE34248F2BD100ED4963 /* YTCrypt.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		52C83A6D2485EFE300D1E602 /* OCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C83A6C2485EFE300D1E602 /* OCViewController.m */; };
 		52C83A6F2485F2CC00D1E602 /* CLSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52C83A6E2485F2CC00D1E602 /* CLSdk.framework */; };
 		6CB8348C5C032983E5BA8C12 /* Pods_CLServiceSDK_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC01B38A241ED0A6FEC5272 /* Pods_CLServiceSDK_Demo.framework */; };
@@ -53,9 +55,24 @@
 		96A0A7DE24803CD200666C4F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A0A7DD24803CD100666C4F /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		524ABE38248F2C9800ED4963 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				524ABE37248F2C9800ED4963 /* YTCrypt.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		3AC01B38A241ED0A6FEC5272 /* Pods_CLServiceSDK_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CLServiceSDK_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E98232CED7D26CF8EA2E838 /* Pods-CLServiceSDK_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLServiceSDK_Demo.release.xcconfig"; path = "Target Support Files/Pods-CLServiceSDK_Demo/Pods-CLServiceSDK_Demo.release.xcconfig"; sourceTree = "<group>"; };
+		524ABE34248F2BD100ED4963 /* YTCrypt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = YTCrypt.framework; sourceTree = "<group>"; };
 		52C83A6B2485EFE300D1E602 /* OCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCViewController.h; sourceTree = "<group>"; };
 		52C83A6C2485EFE300D1E602 /* OCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCViewController.m; sourceTree = "<group>"; };
 		52C83A6E2485F2CC00D1E602 /* CLSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CLSdk.framework; sourceTree = "<group>"; };
@@ -119,6 +136,7 @@
 				961F530D248036A8006D8F17 /* ImageIO.framework in Frameworks */,
 				961F530B248036A2006D8F17 /* CoreTelephony.framework in Frameworks */,
 				961F53092480369D006D8F17 /* AudioToolbox.framework in Frameworks */,
+				524ABE36248F2C9800ED4963 /* YTCrypt.framework in Frameworks */,
 				961F530724803698006D8F17 /* CoreMedia.framework in Frameworks */,
 				961F530524803691006D8F17 /* SystemConfiguration.framework in Frameworks */,
 				961F53032480368C006D8F17 /* Security.framework in Frameworks */,
@@ -269,6 +287,7 @@
 		961F52D824803633006D8F17 /* CLSdk */ = {
 			isa = PBXGroup;
 			children = (
+				524ABE34248F2BD100ED4963 /* YTCrypt.framework */,
 				52C83A6E2485F2CC00D1E602 /* CLSdk.framework */,
 				961F52DA24803633006D8F17 /* CLSdk.bundle */,
 			);
@@ -329,6 +348,7 @@
 				961F52A224802EC1006D8F17 /* Frameworks */,
 				961F52A324802EC1006D8F17 /* Resources */,
 				488F239A552C2CED25247012 /* [CP] Copy Pods Resources */,
+				524ABE38248F2C9800ED4963 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

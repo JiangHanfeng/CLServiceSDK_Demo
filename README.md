@@ -3,12 +3,10 @@
 #### 卡盟相关
 
 * CLSdk.framework
-
 * CLSdk.bundle
-
 * CLDeviceService.framework
-
 * CLDeviceService.bundle
+* YTCrypt.framework
 
 #### 森瑞设备SDK
 
@@ -138,6 +136,12 @@ Acts as a Bluetooth LE accessory
 #### 在Build Settings-Linking-Other Linker flags中添加"-Objc"
 
 ***
+
+#### 由于YTCrypt.framework是动态库，所以需要在General-Frameworks,Libraries,and Embedded Content中，将YTCrypt.framework勾选为Embed & Sign
+
+++++
+
+
 
 
 
