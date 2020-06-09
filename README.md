@@ -137,10 +137,6 @@ Acts as a Bluetooth LE accessory
 
 ***
 
-##### <font color=red>由于YTCrypt.framework是动态库，所以需要在General-Frameworks,Libraries,and Embedded Content中，将YTCrypt.framework勾选为Embed & Sign</font>
-
-------
-
 
 
 ## 代码调用

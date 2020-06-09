@@ -4,7 +4,7 @@
 //
 //  Created by Borya on 2020/3/24.
 //  Copyright © 2020 Yuantel. All rights reserved.
-//  Version 0.8.1
+//  Version 0.8.2
 
 #import <UIKit/UIKit.h>
 

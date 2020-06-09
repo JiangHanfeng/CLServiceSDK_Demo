@@ -7,10 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		524ABE36248F2C9800ED4963 /* YTCrypt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 524ABE34248F2BD100ED4963 /* YTCrypt.framework */; };
-		524ABE37248F2C9800ED4963 /* YTCrypt.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 524ABE34248F2BD100ED4963 /* YTCrypt.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		52C83A6D2485EFE300D1E602 /* OCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C83A6C2485EFE300D1E602 /* OCViewController.m */; };
-		52C83A6F2485F2CC00D1E602 /* CLSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52C83A6E2485F2CC00D1E602 /* CLSdk.framework */; };
+		52F8A0F1248F6E36002A347E /* YTCrypt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52F8A0EF248F6E36002A347E /* YTCrypt.framework */; };
+		52F8A0F2248F6E36002A347E /* CLSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52F8A0F0248F6E36002A347E /* CLSdk.framework */; };
 		6CB8348C5C032983E5BA8C12 /* Pods_CLServiceSDK_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC01B38A241ED0A6FEC5272 /* Pods_CLServiceSDK_Demo.framework */; };
 		961F52A924802EC1006D8F17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961F52A824802EC1006D8F17 /* AppDelegate.swift */; };
 		961F52B024802EC1006D8F17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 961F52AE24802EC1006D8F17 /* Main.storyboard */; };
@@ -62,7 +61,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				524ABE37248F2C9800ED4963 /* YTCrypt.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -72,10 +70,10 @@
 /* Begin PBXFileReference section */
 		3AC01B38A241ED0A6FEC5272 /* Pods_CLServiceSDK_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CLServiceSDK_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E98232CED7D26CF8EA2E838 /* Pods-CLServiceSDK_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLServiceSDK_Demo.release.xcconfig"; path = "Target Support Files/Pods-CLServiceSDK_Demo/Pods-CLServiceSDK_Demo.release.xcconfig"; sourceTree = "<group>"; };
-		524ABE34248F2BD100ED4963 /* YTCrypt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = YTCrypt.framework; sourceTree = "<group>"; };
 		52C83A6B2485EFE300D1E602 /* OCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCViewController.h; sourceTree = "<group>"; };
 		52C83A6C2485EFE300D1E602 /* OCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCViewController.m; sourceTree = "<group>"; };
-		52C83A6E2485F2CC00D1E602 /* CLSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CLSdk.framework; sourceTree = "<group>"; };
+		52F8A0EF248F6E36002A347E /* YTCrypt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = YTCrypt.framework; sourceTree = "<group>"; };
+		52F8A0F0248F6E36002A347E /* CLSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CLSdk.framework; sourceTree = "<group>"; };
 		8127E5B5D0EC78A0D2C11284 /* Pods-CLServiceSDK_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLServiceSDK_Demo.debug.xcconfig"; path = "Target Support Files/Pods-CLServiceSDK_Demo/Pods-CLServiceSDK_Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		961F52A524802EC1006D8F17 /* CLServiceSDK_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CLServiceSDK_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		961F52A824802EC1006D8F17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -131,16 +129,17 @@
 				96A0A7DE24803CD200666C4F /* CoreLocation.framework in Frameworks */,
 				96A0A7DC24803CCB00666C4F /* CoreBluetooth.framework in Frameworks */,
 				96A0A7DA24803CC300666C4F /* MessageUI.framework in Frameworks */,
+				52F8A0F2248F6E36002A347E /* CLSdk.framework in Frameworks */,
 				961F5311248036B2006D8F17 /* AdSupport.framework in Frameworks */,
 				961F530F248036AD006D8F17 /* WebKit.framework in Frameworks */,
 				961F530D248036A8006D8F17 /* ImageIO.framework in Frameworks */,
 				961F530B248036A2006D8F17 /* CoreTelephony.framework in Frameworks */,
 				961F53092480369D006D8F17 /* AudioToolbox.framework in Frameworks */,
-				524ABE36248F2C9800ED4963 /* YTCrypt.framework in Frameworks */,
 				961F530724803698006D8F17 /* CoreMedia.framework in Frameworks */,
 				961F530524803691006D8F17 /* SystemConfiguration.framework in Frameworks */,
 				961F53032480368C006D8F17 /* Security.framework in Frameworks */,
 				961F530124803687006D8F17 /* Accelerate.framework in Frameworks */,
+				52F8A0F1248F6E36002A347E /* YTCrypt.framework in Frameworks */,
 				961F52FF24803682006D8F17 /* CoreVideo.framework in Frameworks */,
 				961F52FD24803677006D8F17 /* MobileCoreServices.framework in Frameworks */,
 				961F52FB24803651006D8F17 /* libicucore.tbd in Frameworks */,
@@ -157,7 +156,6 @@
 				961F52EE24803634006D8F17 /* faceLiveReflect.framework in Frameworks */,
 				6CB8348C5C032983E5BA8C12 /* Pods_CLServiceSDK_Demo.framework in Frameworks */,
 				961F52EA24803634006D8F17 /* WBCloudReflectionFaceVerify.framework in Frameworks */,
-				52C83A6F2485F2CC00D1E602 /* CLSdk.framework in Frameworks */,
 				961F52E924803634006D8F17 /* YTIllumination.framework in Frameworks */,
 				961F52E324803633006D8F17 /* CLDeviceService.framework in Frameworks */,
 				961F52EB24803634006D8F17 /* rapidnet_ios.framework in Frameworks */,
@@ -287,8 +285,8 @@
 		961F52D824803633006D8F17 /* CLSdk */ = {
 			isa = PBXGroup;
 			children = (
-				524ABE34248F2BD100ED4963 /* YTCrypt.framework */,
-				52C83A6E2485F2CC00D1E602 /* CLSdk.framework */,
+				52F8A0F0248F6E36002A347E /* CLSdk.framework */,
+				52F8A0EF248F6E36002A347E /* YTCrypt.framework */,
 				961F52DA24803633006D8F17 /* CLSdk.bundle */,
 			);
 			path = CLSdk;
