@@ -73,7 +73,7 @@ App Transport Security Settings
 
 ## 设置后台运行模式
 
-Xcode选中项目，选择Signing&Capabilities ，点击+Capabilities，选择Background Modes，勾选
+Xcode选中项目，选择Signing&Capabilities ，点击+Capability，选择Background Modes，勾选
 
 ```
 Uses Bluetooth LE accessories
