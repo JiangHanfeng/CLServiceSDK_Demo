@@ -17,23 +17,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    [CLService resgisterWithAppId:@"sdkdaqin" appKey:@"123456" appScheme:@"CLServiceSDK_demo"];
 }
 
-- (void)viewDidAppear:(BOOL)animated {
-    [super viewDidAppear:animated];
+- (void)registSDK {
+    // 这个appScheme为集成支付宝SDK时在URL-Types设置的URL Schemes，如果填写的不一致，将导致支付完成后无法返回接入方的app
+    [CLService resgisterWithAppId:@"your app id" appKey:@"your app key" appScheme:@"your appScheme"];
+}
+
+- (void)callSDK {
     [CLService startWithUserId:@"JU200526175310251758" userPhone:@"18848371206"];
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
