@@ -6,7 +6,6 @@
 * CLSdk.bundle
 * CLDeviceService.framework
 * CLDeviceService.bundle
-* YTCrypt.framework
 
 #### 森瑞设备SDK
 
