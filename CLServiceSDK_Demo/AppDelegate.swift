@@ -20,10 +20,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         return true
     }
-
+    
+    // 在AppDelegate处理支付宝回调时，通过CLService的processAlipayResult方法将支付宝的回调参数传给卡盟SDK
     func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
         if true == url.host?.contains("safepay") {
             AlipaySDK.defaultService()?.processOrder(withPaymentResult: url, standbyCallback: { (resultDic) in
+                // --------------------------
+                /**
+                 * 接入方平台对支付宝回调参数的处理
+                 */
+                // --------------------------
+                
+                // 卡盟SDK对支付宝回调参数的处理
                 CLService.processAlipayResult(resultDic!)
             })
         }

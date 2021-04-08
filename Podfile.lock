@@ -1,16 +1,22 @@
 PODS:
-  - AlipaySDK-iOS (15.7.4)
+  - AlipaySDK-iOS (15.7.9)
+  - SDWebImage (5.11.0):
+    - SDWebImage/Core (= 5.11.0)
+  - SDWebImage/Core (5.11.0)
 
 DEPENDENCIES:
   - AlipaySDK-iOS
+  - SDWebImage
 
 SPEC REPOS:
   https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
     - AlipaySDK-iOS
+    - SDWebImage
 
 SPEC CHECKSUMS:
-  AlipaySDK-iOS: 8659cdb4403de7e5f26ad8b699864a9cbe53384c
+  AlipaySDK-iOS: 94ff4c0e17c5e7d126b8207596d5033006534c25
+  SDWebImage: 7acbb57630ac7db4a495547fb73916ff3e432f6b
 
-PODFILE CHECKSUM: 6b38c9bd2db7e7437b88a061e373cbb93fedacaa
+PODFILE CHECKSUM: d6f2ce5d0794a102c4bf226bea657dcc3f4b5912
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.10.1

@@ -3,4 +3,5 @@ platform :ios, '10.0'
 use_frameworks!
 target 'CLServiceSDK_Demo' do
 	pod 'AlipaySDK-iOS'
+  pod 'SDWebImage'
 end
