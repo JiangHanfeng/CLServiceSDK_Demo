@@ -25,6 +25,7 @@
 #import "KaerIDCardItem.h"
 #import "KEDelegateProtocol.h"
 #import "KEreader_global.h"
+#import "KeSmAlgorithm.h"
 #import "WaitTimer.h"
 #import "KESRWebSocket.h"
 #import "btreader.h"

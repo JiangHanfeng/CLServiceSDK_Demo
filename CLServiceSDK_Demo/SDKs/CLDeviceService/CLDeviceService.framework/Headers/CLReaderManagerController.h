@@ -13,6 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface CLReaderManagerController : UIViewController
 
 + (void)show;
++ (void)showWithNavigationBarBackgroundColor:(UIColor *)navigationBarBackgroundColor;
 
 @end
 

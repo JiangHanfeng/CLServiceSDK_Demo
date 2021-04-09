@@ -4,7 +4,7 @@
 //
 //  Created by Borya on 2020/3/26.
 //  Copyright © 2020 Yuantel. All rights reserved.
-//
+//  0.4.2
 
 #import <Foundation/Foundation.h>
 #import <CoreBluetooth/CoreBluetooth.h>
@@ -28,10 +28,12 @@ typedef enum {
 @interface CLReader : NSObject
 
 @property (nonatomic, assign, readonly) BOOL powerOn;
+@property (nonatomic, assign, readonly) BOOL isScanning;
 @property (nonatomic, assign, readonly) CLReaderConnectionState connectionState;
 @property (nonatomic, strong, readonly) NSArray<CBPeripheral *> * pairedReaders;
 @property (nonatomic, strong, readonly) NSArray<CBPeripheral *> * unpairReaders;
 @property (nonatomic, strong, readonly, nullable) CBPeripheral * connectedPeripheral;
+@property (nonatomic, strong, readonly, nullable) CBPeripheral * latestDiscoveredPeripheral;
 @property (nonatomic, assign) NSUInteger scanTimeoutInterval;
 @property (nonatomic, assign) NSUInteger connectTimeoutInterval;
 //@property (nonatomic, assign) NSUInteger readTimeoutInterval;

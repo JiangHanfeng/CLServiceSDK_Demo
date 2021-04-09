@@ -11,6 +11,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface CLReaderNavigationController : UINavigationController
 
+- (instancetype)initWithRootViewController:(UIViewController *)rootViewController navigationBarBackgroundColor:(UIColor *)navigationBarBackgroundColor;
+
 @end
 
 NS_ASSUME_NONNULL_END

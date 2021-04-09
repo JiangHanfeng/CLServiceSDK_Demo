@@ -24,6 +24,7 @@ typedef void(^CompletionBlock)(void);
 static NSNotificationName const CLCentralManagerConnectFailedNotiName = @"CLCentralManagerConnectFailedNotiName";
 static NSNotificationName const CLCentralManagerStateUpdatedNotiName = @"CLCentralManagerStateUpdatedNotiName";
 static NSNotificationName const CLCentralManagerPeripheralUpdatedNotiName = @"CLCentralManagerPeripheralUpdatedNotiName";
+static NSNotificationName const CLCentralManagerDiscoverNewPeripheralNotiName = @"CLCentralManagerDiscoverNewPeripheralNotiName";
 static NSNotificationName const CLCentralManagerReadCertNotiName = @"CLCentralManagerReadCertNotiName";
 static NSNotificationName const CLCentralManagerReadIccidNotiName = @"CLCentralManagerReadIccidNotiName";
 static NSNotificationName const CLCentralManagerReadSmspNotiName = @"CLCentralManagerReadSmspNotiName";

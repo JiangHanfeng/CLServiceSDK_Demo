@@ -26,7 +26,18 @@
 
 -(void)KE_DiscoverBlePeripheral:(BleDevice*)bledevice;
 
-//-(void)KE_ReadcertImageResult:(NSData*)unpackwltData;
+@end
+
+
+@protocol OnDataReceivedListener <NSObject>
+//收到卡号数据回调
+-(void)onCardReceived:(Byte *)data;
+//收到体温数据上报
+-(void)onTempReceived:(Byte *)data;
+//收到二维码数据上报
+-(void)onQRCodeReceived:(Byte *)data;
+//收到离线温度和二维码数据
+-(void)onTempAndQRCodeReceived:(Byte *)data;
 
 @end
 
